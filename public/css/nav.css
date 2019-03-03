@@ -11,8 +11,11 @@ nav {
   background-color: #e7cb46;
 }
 
-/* list of menu items */
+/* list of menu items,
+ position is set to relative so the dropdown 
+ menu is placed right below the About Us link */
 nav ul li {
+  position: relative;
   display: inline;
   padding: 0 20px;
 }
@@ -27,14 +30,59 @@ nav ul a {
 nav ul li.active a {
   color: #e7cb46;
   background: black;
-  padding: 0.5em 1em;
-  border-radius: 0.5em;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 
 /* style when menu item is hovered over */
 nav ul a:hover {
   color: white;
   background: #08af5f;
-  padding: 0.5em 1em;
-  border-radius: 0.5em;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* dropdown */
+/* dropdown list initially z index is -1 which puts it behind
+the top menu and the opacity is set to 0 so is invisible. The position
+is absolute at 40px from the top of About Us link and 5px to the left*/
+#dropdown {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  top: 40px;
+  left: 5px;
+  background-color: #e7cb46;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 20px 20px 50px black;
+  padding: 0;
+}
+
+/* when the About Us is hovered over
+the z index of the dropdown menu will 
+make it come to the front by setting it to 
+1 and the opacity is also set to 1
+ making the dropdown menu visible  */
+nav li:hover #dropdown {
+  z-index: 1;
+  opacity: 1;
+}
+
+/* the dropdown menu is a block element */
+#dropdown li {
+  display: block;
+}
+
+/* the list of links is displayed as block elements */
+#dropdown li a {
+  padding: 10px 30px;
+  display: block;
+}
+
+/* styling when a link in the dropdown menu is hovered over */
+#dropdown a:hover,
+#dropdown li.active a {
+  background-color: #e7cb46;
+  color: #08af5f;
+  font-weight: bold;
 }
