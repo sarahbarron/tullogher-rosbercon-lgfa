@@ -1,0 +1,60 @@
+/* All pages except the index page have a middle section
+This is the css for the middle sections */
+
+/* center section h2 color and font size*/
+.center-section h2 {
+    color: #08af5f;
+    font-size: 30px;
+}
+
+/* center section h3 font size*/
+.center-section h3 {
+    font-size: 25px;
+}
+
+/* center section paragraph font size */
+.center-section p {
+    font-size: 23px;
+}
+
+/* Fixtures and results, sections within the 
+center section and the iframe skill video padding settings */
+.fixtures-results,
+.center-section section,
+iframe {
+    padding: 0 50px 50px 50px;
+}
+
+/* fixtures heading and 1st column background color */
+.fixtures-results table tr:first-child,
+.fixtures-results table tr th:first-child {
+    background-color: #08af5f;
+}
+
+/* padding in the table */
+.fixtures-results table tr th,
+.fixtures-results table tr td {
+    padding: 20px;
+}
+
+/* News & Events h2 color, gradient background color, padding*/
+.news-events h2 {
+    color: black;
+    background-image: linear-gradient(to right, #e7cb46, #08af5f);
+    padding: 10px;
+}
+
+/* news and events h3 color */
+.news-events h3 {
+    color: #08af5f;
+}
+
+/* news and events border bottom on each article */
+article {
+    border-bottom: inset;
+}
+
+/* Weekly Skills video padding */
+iframe {
+    padding: 50px;
+}

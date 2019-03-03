@@ -1,0 +1,128 @@
+<!-- include the navigation menu -->
+<%- include('./partials/_nav.ejs', {id : "fixtures-results-page"}); %>
+<!-- this is a center section -->
+<section class="center-section">
+    <!-- heading -->
+    <h1>Fixtures and Results</h1>
+    <!-- Fixtures section -->
+    <section class="fixtures-results" id="fixtures">
+        <!-- heading -->
+        <h2>Upcoming Fixtures</h2>
+        <!-- fixtures table -->
+        <table>
+            <!-- table headings -->
+            <tr>
+                <th>Age</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Venue</th>
+                <th>Team 1</th>
+                <th></th>
+                <th>Team 2</th>
+            </tr>
+            <tr>
+                <th>U8</th>
+                <td>06/04/2019</td>
+                <td>2pm</td>
+                <td>Brownstown</td>
+                <td>Tullogher</td>
+                <td>V</td>
+                <td>Piltown</td>
+            </tr>
+            <tr>
+                <th>U12</th>
+                <td>07/04/2019</td>
+                <td>11am</td>
+                <td>Thomastown</td>
+                <td>Tullogher</td>
+                <td>V</td>
+                <td>Thomastown</td>
+            </tr>
+            <tr>
+                <th>U16</th>
+                <td>13/04/2019</td>
+                <td>3pm</td>
+                <td>Brownstown</td>
+                <td>Tullogher</td>
+                <td>V</td>
+                <td>Clara</td>
+            </tr>
+
+            <tr>
+                <th>U8</th>
+                <td>16/05/2019</td>
+                <td>2pm</td>
+                <td>Brownstown</td>
+                <td>Tullogher</td>
+                <td>V</td>
+                <td>John Lockes</td>
+            </tr>
+            <tr>
+                <th>U12</th>
+                <td>17/05/2019</td>
+                <td>11am</td>
+                <td>Erin's Own</td>
+                <td>Tullogher</td>
+                <td>V</td>
+                <td>Erin's Own</td>
+            </tr>
+            <tr>
+                <th>U16</th>
+                <td>23/05/2019</td>
+                <td>3pm</td>
+                <td>Muckalee</td>
+                <td>Tullogher</td>
+                <td>V</td>
+                <td>Muckalee</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <!-- results section -->
+    <section class=fixtures-results id="results">
+        <!-- heading -->
+        <h2>Latest Results</h2>
+        <!-- results table -->
+        <table>
+            <!-- table headings -->
+            <tr>
+                <th>Age</th>
+                <th>Date</th>
+                <th>Team 1</th>
+                <th>Result</th>
+                <th></th>
+                <th>Team 2</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <th>U8</th>
+                <td>09/03/2019</td>
+                <td>Tullogher</td>
+                <td>4-01</td>
+                <td>V</td>
+                <td>Muckalee</td>
+                <td>5-00</td>
+            </tr>
+            <tr>
+                <th>U12</th>
+                <td>10/03/2019</td>
+                <td>Tullogher</td>
+                <td>3-03</td>
+                <td>V</td>
+                <td>Railyard</td>
+                <td>2-03</td>
+            </tr>
+            <tr>
+                <th>U16</th>
+                <td>09/03/2019</td>
+                <td>Tullogher</td>
+                <td>2-06</td>
+                <td>V</td>
+                <td>Piltown</td>
+                <td>3-03</td>
+            </tr>
+        </table>
+    </section>
+</section>
+<!-- include the sidebar -->
+<%- include('./partials/_sidebar.ejs'); %>

@@ -1,0 +1,62 @@
+/* grid css */
+
+/* main grid container */
+.container {
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+}
+
+/* header, navigation, main image, about section, fixture
+and results section and nested div and footer  */
+header,
+nav,
+#main-img,
+#about-section,
+#fix-res-section,
+#fix-res-section div,
+footer {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+
+/* club crest in header, about section text */
+header img,
+#about-section div {
+    grid-column-start: 1;
+}
+
+/* h1, navigation unorder list, about section image, center section*/
+h1,
+nav ul,
+#about-section img,
+.center-section {
+    grid-column-start: 2;
+}
+
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+/* header h1 text */
+header h1 {
+    padding-left: 1em;
+}
+
+/* Navigation */
+nav {
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+/* about section */
+#about-section {
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+/* sidebar */
+aside {
+    grid-column-start: 3;
+}

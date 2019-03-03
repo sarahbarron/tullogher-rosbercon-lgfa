@@ -1,0 +1,46 @@
+/* general css settings */
+
+/* font and initial margin settings   */
+body,
+html {
+    font-family: 'Original Surfer', cursive;
+    margin: 0;
+}
+
+/* header h1 text */
+header h1 {
+    font-size: 50px;
+    color: black;
+    padding: 0;
+}
+
+/* h1 settings */
+h1 {
+    font-size: 35px;
+    padding: 50px;
+    color: #08af5f;
+}
+
+/* Footer settings*/
+footer {
+    border-top: inset;
+    background: black;
+    color: white;
+}
+
+/* copyright paragraph in footer  */
+footer p {
+    text-align: center;
+}
+
+/* side bar settings */
+aside {
+    padding: 50px;
+    border-left: inset;
+    margin: 110px 0;
+}
+
+/* h3 in the side bar */
+aside h3 {
+    color: #08af5f;
+}
