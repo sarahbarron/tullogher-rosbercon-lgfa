@@ -6,6 +6,9 @@ html {
     font-family: 'Original Surfer', cursive;
     margin: 0;
 }
+a{
+    text-decoration:none;
+}
 
 /* header h1 text */
 header h1 {

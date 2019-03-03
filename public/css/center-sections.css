@@ -13,7 +13,7 @@ This is the css for the middle sections */
 }
 
 /* center section paragraph font size */
-.center-section p {
+.center-section p{
     font-size: 23px;
 }
 
@@ -57,4 +57,16 @@ article {
 /* Weekly Skills video padding */
 iframe {
     padding: 50px;
+}
+
+/* Committee and Trainers */
+#committee table{
+    font-size:23px;
+    text-align: left;
+}
+#committee table td{
+    padding-left: 30px;
+}
+#committee table td, #committee table th{
+    padding-bottom: 30px;
 }
