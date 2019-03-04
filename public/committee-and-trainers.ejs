@@ -1,27 +1,37 @@
 <!-- include the navigation menu -->
 <%- include('./partials/_nav.ejs', {id : "committee-page"}); %>
+
+<!-- Center Section -->
 <section class="center-section">
-    <h1>Committee and Trainers</h1>
-    <section>
+
+    <!-- header -->
+    <h1>Our Volunteers</h1>
+
     <img src="./images/volunteers.jpg" alt="committee members and trainers">
-    <p>Our club is made up of volunteers of parents and members of the wider
-        community. Our club would not survive without voulunteers giving up
-        their time every week, to help with training, on the committee,
-        fundraising, making tea and coffee on blitz days, match day officials
-        and much more. We are so grateful to all who have given up their time
-        to the club so far.
-    </p>
-    <p> We also always welcome new volunteers to the club.
-        if you can only spare an hour every year or an hour a week any help is
-        much appreciated.
-    </p>
-    <p> Please contact our chairman Kevin Cunningham on 
-        <a target="_blank" href="tel:+051111111"> (051) 1010101</a>
-        if you would like more information.
-    </p>
+
+    <!-- volunteer section -->
+    <section>
+        <h2>Volunteering</h2>
+        <p>Our club is made up of volunteers of parents and members of the wider
+            community. Our club would not survive without voulunteers giving up
+            their time every week, to help with training, on the committee,
+            fundraising, making tea and coffee on blitz days, match day officials
+            and much more. We are so grateful to all who have given up their time
+            to the club so far.
+        </p>
+        <p> We also always welcome new volunteers to the club.
+            if you can only spare an hour every year or an hour a week any help is
+            much appreciated.
+        </p>
+        <p> Please contact our chairman Kevin Cunningham on
+            <a target="_blank" href="tel:+051111111"> (051) 1010101</a>
+            if you would like more information.
+        </p>
     </section>
-    <section id="committee">
-    <h2>Committee Members - 2019</h2>
+
+    <!-- committee section table of committee members -->
+    <section class="committee-trainers">
+        <h2>Committee Members - 2019</h2>
         <table>
             <tr>
                 <th>Chairman</th>
@@ -52,19 +62,23 @@
                 <td>Sarah Barron</td>
             </tr>
         </table>
- 
-            <h2>Trainers - 2019</h2>
-                <table>
-                    <tr>
-                        <th>U8 & U12</th>
-                        <td>Ciaran Holohan, Owen O Leary, Martin Flaherty</td>
-                    </tr>
-                    <tr>
-                        <th>U16</th>
-                        <td>John Flanagan, Martin Sullivan, Caitriona Ryan</td>
-                    </tr>
-                </table>
-            </section>
+    </section>
+
+    <!-- trainers section table of trainers -->
+    <section class="committee-trainers" id="trainers">
+        <h2>Trainers - 2019</h2>
+        <table>
+            <tr>
+                <th>U8 & U12</th>
+                <td>Ciaran Holohan, Owen O Leary, Martin Flaherty</td>
+            </tr>
+            <tr>
+                <th>U16</th>
+                <td>John Flanagan, Martin Sullivan, Caitriona Ryan</td>
+            </tr>
+        </table>
+    </section>
 </section>
+
 <!-- include the sidebar -->
 <%- include('./partials/_sidebar.ejs'); %>
