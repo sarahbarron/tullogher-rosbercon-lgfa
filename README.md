@@ -3,7 +3,9 @@
 #### HDip in Computer Science
 #### Module: Web Development
 ##### Assignment 1 - Result 99%
+##### Website - [Tullogher Rosbercon Ladies Gaelic Football Club](http://tullogher-rosbercon-lgfa.surge.sh/)
 
+------------------------
 Our first assignment was to create a website on a topic of interest.
 
 - With 5 - 7 separate html pages + 2-3 css style sheets 
@@ -33,5 +35,3 @@ Tool and Technologies used
 - Google Fonts
 - [Harp](http://harpjs.com/) - static web server
 - [Surge](https://surge.sh/) - static web publishing for frontend developers
-
-##### Result received- 99%
